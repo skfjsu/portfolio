@@ -48,7 +48,7 @@ $(document).ready(function(){
 
     $(window).scroll(function(){
         var scroll=$(window).scrollTop();
-        if (scroll > 780) {
+        if (scroll > 680) {
         $("#pro1").delay(2000);
         $("#pro2").delay(2500);
         $("#pro3").delay(3000);

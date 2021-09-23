@@ -146,6 +146,8 @@ progress::-webkit-progress-bar {background:#e6e6e6;}
 #section02 .resume:hover a { color:#475236; }
 /* section02 END */
 
+
+
 #section03 { position:relative; background:#fafaf8; }
 #section03 .portfolio { width:100%; height:100px; background:#475236; text-align:center; }
 #section03 .portfolio h2 { color:#fafaf8; font-size:2.3vw; line-height:100px; }
@@ -203,28 +205,43 @@ progress::-webkit-progress-bar {background:#e6e6e6;}
 #section05 .site03 .goweb:hover { background:#fafaf8; border:1px solid #475236; box-sizing:border-box; transition:0.3s; }
 #section05 .site03 .goweb:hover a { color:#475236; transition:0.3s; }
 
-#section05 .site03 .gosite { width:350px; height:40px; background:#475236; margin-top:20px; border-radius:40px; text-align:center; }
-#section05 .site03 .gosite a { color:#fafaf8; font-size:1vw; line-height:40px; }
-#section05 .site03 .gosite:hover { background:#fafaf8; border:1px solid #475236; box-sizing:border-box; transition:0.3s; }
-#section05 .site03 .gosite:hover a { color:#475236; transition:0.3s; }
 
 #section05 .site03 .preview { position:absolute; top:24%; right:6%; }
 #section05 .site03 .preview img { width:900px; }
-/* section04 END */
+/* section05 END */
 
 
-#section06 { height:60vh; background:#f1efec; }
 
-#section06 .contact { position:relative; width:30%; height:50%; margin:auto; margin-top:110px; text-align:center; }
-#section06 .contact .c_me { height:60px; background:#475236; border-radius:60px; }
-#section06 .contact span {  font-size:2vw; color:#fafaf8; font-weight:bold; padding-bottom:50px; }
-#section06 .contact .call { position:absolute; left:0; top:65%; text-align:center; opacity:0.7; }
-#section06 .contact .call img { width:50px; margin-bottom:30px; }
-#section06 .contact .call p { font-size:0.9vw; color:#475236; }
+#section06 { position:relative; background:#fafaf8; }
 
-#section06 .contact .mail { position:absolute; right:0; top:65%; text-align:center; opacity:0.7; }
-#section06 .contact .mail img { width:50px; margin-bottom:30px; }
-#section06 .contact .mail p { font-size:0.9vw; color:#475236; }
+#section06 .site04 { width:100%; margin:10% 10%; }
+#section06 .site04 h1  { color:#475236; font-size:2vw; line-height:60px; }
+#section06 .site04 span { color:#475236; font-size:4vw; font-weight:bold; margin-bottom:30vh }
+#section06 .site04 span::after { display:block; content:''; width:100%; height:1px; background:#475236; margin-top:30px; }
+
+#section06 .site04 .goweb { width:350px; height:40px; background:#475236; margin-top:60px; border-radius:40px; text-align:center; }
+#section06 .site04 .goweb a { color:#fafaf8; font-size:1vw; line-height:40px; }
+#section06 .site04 .goweb:hover { background:#fafaf8; border:1px solid #475236; box-sizing:border-box; transition:0.3s; }
+#section06 .site04 .goweb:hover a { color:#475236; transition:0.3s; }
+
+
+#section06 .site04 .preview { position:absolute; top:24%; right:6%; }
+#section06 .site04 .preview img { width:900px; }
+/* section06 END */
+
+
+#section07 { height:60vh; background:#f1efec; }
+
+#section07 .contact { position:relative; width:30%; height:50%; margin:auto; margin-top:110px; text-align:center; }
+#section07 .contact .c_me { height:60px; background:#475236; border-radius:60px; }
+#section07 .contact span {  font-size:2vw; color:#fafaf8; font-weight:bold; padding-bottom:50px; }
+#section07 .contact .call { position:absolute; left:0; top:65%; text-align:center; opacity:0.7; }
+#section07 .contact .call img { width:50px; margin-bottom:30px; }
+#section07 .contact .call p { font-size:0.9vw; color:#475236; }
+
+#section07 .contact .mail { position:absolute; right:0; top:65%; text-align:center; opacity:0.7; }
+#section07 .contact .mail img { width:50px; margin-bottom:30px; }
+#section07 .contact .mail p { font-size:0.9vw; color:#475236; }
 
 
 
@@ -237,3 +254,227 @@ footer .f_copyright p { color:rgba(255, 255, 255, 0.6); font-size:12px; padding-
 
 
 
+
+
+
+
+
+
+
+@media (max-width:1080px) {
+    #header_in { width:960px; }
+    #header_in h1 { margin-top:1.5%; }
+    
+
+/*section1 start*/
+#section01 .copy { left:-220px; }
+#section01 .wheeldown { bottom:7%; }
+#section01 .backImg1 { transform:scale(0.55); right:-15%; }
+#section01 .backImg2 { transform:scale(0.35); right:20%; }
+#section01 .backImg3 {transform:scale(0.25); right:5%; }
+
+/*section2 start*/
+#section02 .s02_back .aboutBack { width:120px; }
+#section02 .s02_back .aboutBack img { width:100px; }
+
+#section02 .profile { left:30%; width:70%; }
+#section02 .profile .profile_intro { left:7%; margin-left:20px; }
+
+#section02 .about { top:8%; left:6%; }
+#section02 .about ul { margin:20px 0 50px 30px; }
+
+#section02 .me { position:absolute; top:8%; left:20%; }
+#section02 .me ul { margin:20px 0 50px 30px; }
+#section02 #myVideo { width:30%; height:100%;} 
+
+#section02 .skill { position:absolute; top:60%; left:7%; width:100%; margin:20px 0 50px 30px; }
+#section02 .skill .skill_F { top:26.5%; left:10%; }
+progress { margin:6.5px 0 6.5px 20px; }
+#section02 .resume { bottom:50px; right:150px; }
+
+
+/*section3 start*/
+#section03 .portfolio { height:80px }
+#section03 .portfolio h2 { line-height:80px; }
+#section03 .mywork { height:50px;}
+#section03 .mywork h4 { line-height:50px; }
+#section03 .site01 { margin:10% 7%; }
+#section03 .site01 h1 { line-height:45px; }
+#section03 .site01 span { font-size:3.6vw; }
+
+#section03 .site01 .gosite { width:280px;  }
+#section03 .site01 .gosite a { font-size:14px; }
+
+#section03 .site01 .preview { right:10%; }
+#section03 .site01 .preview img { width:400px; }
+
+
+/*section4 start*/
+#section04 .site02 { margin:11% 7% 10% 0; }
+#section04 .site02 h1 { line-height:45px; }
+#section04 .site02 span { font-size:3.6vw; }
+
+#section04 .site02 .gouxui { width:280px; }
+#section04 .site02 .gouxui a { font-size:14px; }
+
+#section04 .site02 .gosite { width:280px; }
+#section04 .site02 .gosite a { font-size:14px; }
+
+#section04 .site02 .preview { position:absolute; top:20%; left:13%; }
+#section04 .site02 .preview img { width:220px; }
+
+
+/*section5 start*/
+#section05 .site03 { margin:10% 7%; }
+#section05 .site03 h1  { line-height:45px; }
+#section05 .site03 span { font-size:3.6vw; }
+
+#section05 .site03 .goweb { width:280px; }
+#section05 .site03 .goweb a { font-size:14px; }
+
+#section05 .site03 .preview { position:absolute; top:24%; right:3%; }
+#section05 .site03 .preview img { width:700px; }
+
+
+/*section5 start*/
+#section06 .site04 { margin:10% 7%; }
+#section06 .site04 h1  { line-height:45px; }
+#section06 .site04 span { font-size:3.6vw; }
+
+#section06 .site04 .goweb { width:280px; }
+#section06 .site04 .goweb a { font-size:14px; }
+
+#section06 .site04 .preview { position:absolute; top:24%; right:3%; }
+#section06 .site04 .preview img { width:700px; }
+
+
+/*section6 start*/
+#section07 { height:40vh; }
+
+#section07 .contact { margin-top:50px;  }
+#section07 .contact .c_me { height:50px;border-radius:50px; }
+#section07 .contact span { font-size:18px; line-height:50px; }
+
+#section07 .contact .call img { width:45px; }
+#section07 .contact .call p { font-size:12px }
+
+#section07 .contact .mail img { width:45px; }
+#section07 .contact .mail p { font-size:12px }
+
+
+
+footer { height:35px; }
+footer button { bottom:6%; }
+
+footer .f_copyright p { padding-top:7px; }
+
+
+}
+
+
+
+
+@media (max-width:768px) {
+    header { height:50px; }
+    #header_in { width:150px; }
+    #header_in h1 { width:35px; height:35px; margin-top:13px; left:50%; transform:translateX(-50%); }
+    
+    /*main menu*/
+    header #nav { display:none; }
+    /*main menu END*/
+
+
+/*section1 start*/
+#section01 .copy { left:-230px; }
+#section01 .copy p { font-size:11px; }
+#section01 .wheeldown { bottom:7%; }
+
+#section01 .txt { top:20%; left:12%; }
+#section01 .txt h3 { font-size:16px; margin-bottom:20px; }
+#section01 .txt h4 { font-size:36px; margin-bottom:40px; }
+#section01 .txt p { font-size:14px; }
+
+#section01 .backImg1 { transform:scale(0.35); top:20%; right:-35%; }
+#section01 .backImg2 { transform:scale(0.2); top:30%; right:10%; }
+#section01 .backImg3 { display:none; }
+
+
+/*section2 start*/
+#section02 .s02_back .aboutBack { display:none; }
+#section02 .aboutback2 p { font-size:18px;}
+
+#section02 .profile { left:0%; width:100%; }
+#section02 .profile .profile_intro { top:80px; left:30px; width:460px; margin-left:20px; }
+#section02 .profile .profile_intro span { font-size:20px; }
+#section02 .profile .profile_intro p { font-size:12px; }
+
+
+#section02 .profile_main { top:27%; height:32%;}
+#section02 .about { display:none; }
+#section02 .me { top:0; left:20px; }
+#section02 .me li { margin-bottom:10px; width:88%; }
+#section02 .me li p { font-weight:bold; }
+#section02 #myVideo { display:none; } 
+
+#section02 .skill { top:62%; left:20px; }
+#section02 .skill > span { font-size:18px; }
+#section02 .skill .skill_F { top:23.5%; left:10%; }
+progress { margin:6.5px 0 6.5px 20px; }
+#section02 .resume { bottom:50px; right:100px; }
+
+
+/*section3 start*/
+#section03 .portfolio { height:60px }
+#section03 .portfolio h2 { line-height:60px; font-size:20px; }
+#section03 .mywork { height:35px;}
+#section03 .mywork h4 { line-height:35px; font-size:15px; }
+#section03 .site01 h1 { line-height:45px; font-size:18px; }
+#section03 .site01 span { font-size:36px; }
+
+#section03 .site01 .gosite { width:250px; margin-top:30px; }
+
+#section03 .site01 .preview { top:45%; right:10%; }
+#section03 .site01 .preview img { width:400px; }
+
+
+/*section4 start*/
+#section04 .site02 h1 { line-height:45px; font-size:18px; }
+#section04 .site02 span { font-size:36px; }
+
+#section04 .site02 .gouxui { width:250px; margin-top:120px; }
+
+#section04 .site02 .gosite { width:250px; margin-top:180px; }
+
+#section04 .site02 .preview { position:absolute; top:30%; left:10%; }
+#section04 .site02 .preview img { width:220px; }
+
+
+/*section5 start*/
+#section05 .site03 h1  { line-height:45px; font-size:18px; }
+#section05 .site03 span { font-size:36px; }
+
+#section05 .site03 .goweb { width:250px; margin-top:30px; }
+
+#section05 .site03 .preview { position:absolute; top:33%; right:3%; }
+#section05 .site03 .preview img { width:580px; }
+
+
+/*section5 start*/
+#section06 .site04 h1  { line-height:45px; font-size:18px; }
+#section06 .site04 span { font-size:36px; }
+
+#section06 .site04 .goweb { width:250px; margin-top:30px; }
+
+#section06 .site04 .preview { position:absolute; top:33%; right:3%; }
+#section06 .site04 .preview img { width:580px; }
+
+
+/*section6 start*/
+#section07 { height:40vh; }
+
+#section07 .contact { margin-top:50px; width:50%; }
+#section07 .contact .c_me { height:50px; border-radius:50px; }
+#section07 .contact span { font-size:18px; line-height:50px; }
+
+
+}
